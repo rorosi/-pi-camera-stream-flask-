@@ -27,11 +27,12 @@
     cd pi-camera-stream-flask
     python3 main.py
 
-![13](/uploads/2fb24c622e9569f2c936fa0c46d912e4/13.png)
+![13](https://user-images.githubusercontent.com/56014938/126754316-64beed6f-6caf-45b4-b8c5-791f7ff365cf.png)
 
 ## 3. 라즈베리파이ip:5000으로 접속합니다.
 
-![14](/uploads/3174f6fe2a222674f2701dfe5d84cdf7/14.png)
+![14](https://user-images.githubusercontent.com/56014938/126754366-3fb3fed5-8f58-409a-8ea0-f55778ee876c.png)
+
     
 
 
