@@ -1,7 +1,4 @@
-#Modified by smartbuilds.io
-#Date: 27.09.20
-#Desc: This scrtipt script..
-
+#camera.py
 import cv2
 from imutils.video.pivideostream import PiVideoStream
 import imutils
@@ -24,5 +21,6 @@ class VideoCamera(object):
 
     def get_frame(self):
         frame = self.flip_if_needed(self.vs.read())
+        # 프레임을 jpeg 형식으로 인코딩
         ret, jpeg = cv2.imencode('.jpg', frame)
         return jpeg.tobytes()
